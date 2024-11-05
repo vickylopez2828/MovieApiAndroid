@@ -60,9 +60,7 @@ fun MovieScreen(
     val trendingMovies =  trendingViewModel.trendingMovies.collectAsLazyPagingItems()
 
     var isClicked by remember { mutableStateOf(false) }
-    //remember para q recuerde valor, el state para q este escuhando
-    //algo similar podria ser con un texto q se va escribiendo
-//    var counter by remember { mutableIntStateOf(0) }
+
     //titulos de las tabs
     val tabs = listOf("Populares", "Tendencias")
 

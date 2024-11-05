@@ -51,28 +51,3 @@ fun MovieContent(
         }
     }
 }
-
-//
-//@Composable
-//@Preview(showBackground = true)
-//private fun MovieContentPreview(){
-//    MovieContent(
-//        isLoading = false,
-//        movies = listOf(
-//            MovieUiModel(
-//                id = 1,
-//                title = "Vicky",
-//                image = "https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
-//
-//            ),
-//            MovieUiModel(
-//                id = 2,
-//                title = "Juan Perez Castillo",
-//                image = "https://image.tmdb.org/t/p/original/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
-//
-//            ),
-//
-//        ),
-//        onMovieClicked = {},
-//    )
-//}

@@ -31,7 +31,6 @@ class MovieSimilarViewModel @Inject constructor(
             _loading.value = true
             _error.value = false
 
-            delay(500)
             val similarMovies = movieRepository.getSimilarMovies(id)
 
             _loading.value = false

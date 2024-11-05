@@ -30,7 +30,6 @@ class MainViewModel @Inject constructor(
 
 ): ViewModel() {
 
-    //val movies :Flow<PagingData<Movie>> = movieRepository.getMovies()
     private val _movies: MutableStateFlow<PagingData<Movie>> = MutableStateFlow(PagingData.empty())
     val movies: StateFlow<PagingData<Movie>> = _movies.asStateFlow()
     private val _hasNetworkError = MutableStateFlow(false)

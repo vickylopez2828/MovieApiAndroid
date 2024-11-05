@@ -20,7 +20,7 @@ data class MovieDetailDto (
     val genres: List<GenresDto>
 ){
     fun toMovieDetail(): MovieDetail {
-        //val img = "https://image.tmdb.org/t/p/w500" + imageDetail
+
         return MovieDetail(
             id = id,
             title = title,

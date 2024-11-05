@@ -236,7 +236,7 @@ fun MovieDetailScreen(
                             horizontalArrangement = Arrangement.spacedBy(2.dp)
                         ) {
                             items(moviesToDisplay) { movie ->
-                              //  val img = movie.image ?: R.drawable.image
+
                                 MovieItem(
                                     title = movie.title,
                                     image = movie.image,
@@ -252,16 +252,3 @@ fun MovieDetailScreen(
     }
 
 }
-
-
-//@Composable
-//@Preview(showBackground = true)
-//fun UserScreenPreview(){
-//    MovieDetailScreen(
-//        title = "Vicky Lopez",
-//        image = "",
-//        description = "",
-//        rating = 4.5.toFloat(),
-//        navController = NavController()
-//    )
-//}

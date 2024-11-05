@@ -48,6 +48,11 @@ fun MovieItem(
 
 
                 if(image == null){
+                    GlideImage(
+                        model = R.drawable.image,
+                        contentDescription = title
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
                     Text(
                         text = title,
                         style = MaterialTheme.typography.bodyMedium.copy(
@@ -55,12 +60,8 @@ fun MovieItem(
                         ),
                         color = MaterialTheme.colorScheme.primary
                     )
-                    Spacer(modifier = Modifier.height(32.dp))
-                    GlideImage(
-                        modifier = Modifier.size( width = 150.dp, height = 200.dp),
-                        model = R.drawable.image,
-                        contentDescription = title
-                    )
+
+
 
 
                 } else {

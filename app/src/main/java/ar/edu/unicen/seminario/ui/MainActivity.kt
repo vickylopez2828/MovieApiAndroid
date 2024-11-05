@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     // composable(movies/{userId})
                     composable(
-                        route = "movieDetail/{movieId}", // Definir que esta pantalla recibe el id de la película
+                        route = "movieDetail/{movieId}",
                         arguments = listOf(
                             navArgument("movieId") { type = NavType.IntType },
                         ),
